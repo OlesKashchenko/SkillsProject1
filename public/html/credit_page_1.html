@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+
+    <title></title>
+    <meta name="title" content=""/>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+
+    <meta property="og:title" content="" />
+    <meta property="og:description" content=""/>
+    <meta property="og:image" content="" />
+    <link rel="image_src" href="">
+    <meta property="og:url" content="" />
+	
+	<meta name="viewport" content="width=device-width">
+	
+    <!--<base href="" >-->
+
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+
+    <link rel="stylesheet" href="css/bxslider/jquery.bxslider.css" type="text/css" media="screen, projection, print"/>
+    <link rel="stylesheet" href="css/libs/jquery.fs.selecter.css" type="text/css" media="screen, projection, print"/>
+    <link rel="stylesheet" href="css/map.css" type="text/css" media="screen, projection, print"/>
+    <link rel="stylesheet" href="css/main.css" type="text/css" media="screen, projection, print"/>
+
+    <!-- secure fixed appearance for skype system changes -->
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+
+    <script type="text/javascript" src="js/libs/modernizr-2.6.2.min.js"></script>
+	
+    <!--<script type="text/javascript" src="js/libs/ie-html5tags.js"></script>-->
+    <!--<script type="text/javascript" src="js/libs/ie-mediaqueries.js"></script>-->
+	
+    <script type="text/javascript" src="js/libs/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="js/libs/jquery-ui-1.10.0.custom.js"></script>
+
+    <script type="text/javascript" src="js/libs/jquery.bxslider.min.js"></script>
+    <script type="text/javascript" src="js/libs/jquery.fs.selecter.min.js"></script>
+
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script type="text/javascript" src="js/libs/infobox.js"></script>
+    <script type="text/javascript" src="js/libs/markercluster.js"></script>
+    <script type="text/javascript" src="js/libs/map.js"></script>
+
+    <script type="text/javascript" src="js/script.js"></script>
+
+    <!--Google Analytics Code-->
+    <!--/Google Analytics Code-->
+</head>
+
+<body>
+<!-- BEGIN wrapper-->
+<div class="wrapper page_credit">
+    <div class="nav_sidebar_holder">
+        <div class="nav_sidebar minimized">
+            <div class="part_1">
+                <span class="sidebar_icon_0"><a href="">Интернет-банк</a></span>
+                <span class="sidebar_icon_1"><a href="">Заявка на кредит</a></span>
+                <span class="sidebar_icon_2"><a href="">Заявка на депозит</a></span>
+                <span class="sidebar_icon_3"><a href="">Онлайн погашения</a></span>
+                <span class="sidebar_icon_4"><a href="">Билеты жд/авиа</a></span>
+                <span class="sidebar_icon_5"><a href="">Билеты кино/театр</a></span>
+                <span class="sidebar_icon_6"><a href="">Пополнить счет</a></span>
+                <span class="sidebar_icon_7"><a href="">Обратная связь</a></span>
+                <span class="sidebar_icon_8"><a href="">Отделения и банкоматы</a></span>
+            </div>
+            <i class="nav_sidebar_burger"></i>
+        </div><!--.nav_sidebar-->
+    </div><!--.nav_sidebar_holder-->
+
+    <div class="wrapper_inner">
+        <header class="header">
+            <a class="logo" href="/"><img src="images/logo_header.png" alt=""/></a>
+            <ul class="lang">
+                <li class="act"><span>ua</span></li>
+                <li><a href="">ru</a></li>
+                <li class="disabled">
+                    <a href="">en</a>
+                    <div class="hint">
+                        Language is temporarily unavailable
+                    </div>
+                </li>
+            </ul>
+
+            <a href="" class="a_club">A-CLUB</a>
+
+            <div class="nav_right">
+                <a href="">О Банке</a>
+                <a href="">Investor Relations</a>
+                <span class="vr"></span>
+                <a href="feedback.html">Обратная Связь</a>
+                <a href="">Отделения и банкоматы</a>
+            </div>
+
+            <div class="nav_main short">
+                <div class="nav_main_inner">
+                    <a class="nav_main_logo" href=""></a>
+                    <div class="nav_links">
+                        <span class="act">Частным лицам</span>
+                        <span>Малому бизнесу</span>
+                        <span>Корпоративному бизнесу</span>
+                        <span>Финансовым институтам</span>
+                    </div>
+                    <div class="btn"><a href="">Интернет-банк</a></div>
+                    <div class="fake_sidebar_icon"></div>
+
+                    <div class="nav_main_sub">
+                        <div class="nav_main_sub_item act">
+                            <a class="sub_0_0" href="">Кредиты</a>
+                            <a class="sub_0_1" href="">Депозиты</a>
+                            <a class="sub_0_2" href="">Банковские карты</a>
+                            <a class="sub_0_3" href="">Платежи и переводы</a>
+                        </div>
+                        <div class="nav_main_sub_item">
+                            <a class="sub_1_0" href="">Банковские карты</a>
+                            <a class="sub_1_1" href="">Депозиты</a>
+                            <a class="sub_1_2" href="">Кредиты</a>
+                            <a class="sub_1_3" href="">Платежи и переводы</a>
+                        </div>
+                    </div><!--.nav_main_sub-->
+                </div><!--.nav_main_inner-->
+            </div><!--.nav_main-->
+        </header>
+
+        <div class="middle">
+            <div class="breadcrumbs">
+                <a href="" class="breadcrumbs_title">Кредиты</a>
+                <div class="breadcrumbs_links">
+                    <a href="">Как стать партнером</a>
+                    <a href="">Точки продаж</a>
+                </div>
+            </div><!--.breadcrumbs-->
+
+            <div class="credit_page_intro">
+                <div class="bg_holder"><img src="images/samples/credit_catalog_3.jpg" alt=""/></div>
+                <h3>Потребительский кредит</h3>
+                <div class="sub_title">возможность приобрести товар в кредит на выгодных условиях</div>
+
+                <div class="credit_page_intro_footer">
+                    <div class="credit_page_intro_footer_blur_holder">
+                        <div class="credit_page_intro_footer_blur">
+                            <img src="images/samples/credit_catalog_3.jpg" alt=""/>
+                        </div>
+                    </div>
+                    <ul>
+                        <li>
+                            <p>до 10 мин</p>
+                            кредитное решение
+                        </li>
+                        <li>
+                            <p>
+                                от 300 до 100 000 грн
+                                <i class="hint_holder">
+                                    <i class="hint wide">
+                                        Банковская карта оформляется согласно<br/>
+                                        тарифу “Карта и продукт”
+                                    </i>
+                                </i>
+                            </p>
+                            сумма кредита
+                        </li>
+                        <li>
+                            <p>от 2 до 60 мес</p>
+                            срок кредитования
+                        </li>
+                        <li>
+                            <p>
+                                до 50 000 грн
+                                <i class="hint_holder">
+                                    <i class="hint wide bottom-left">
+                                        Банковская карта оформляется согласно<br/>
+                                        тарифу “Карта и продукт”
+                                    </i>
+                                </i>
+                            </p>
+                            безсправки о оходах
+                        </li>
+                    </ul>
+                </div><!--.credit_page_intro_footer-->
+            </div><!--.credit_page_intro-->
+            
+            <div class="credit_page_call_to_action">
+                <a class="btn btn_red" href="" data-scrollto="credit_page_calculator"><span>посчитать и оформить</span></a>
+            </div><!--.credit_page_call_to_action-->
+
+            <div class="credit_page_tabs js_tabs" data-autoheight="true">
+                <div class="max_width">
+                    <h2>Оформляя кредит в Альфа-Банк</h2>
+                    <div class="credit_page_tabs_head js_tabs_head">
+                        <div class="tab">Главное</div>
+                        <div class="tab">Выгоды</div>
+                        <div class="tab">Дополнительные возможности</div>
+                        <div class="tab">Кросс продажа</div>
+                    </div><!--.credit_page_tabs_head-->
+                    <div class="credit_page_tabs_body js_tabs_body">
+                        <div class="tab half_right_only">
+                            <div class="tab_inner">
+                                <div class="img_holder"><img src="images/samples/credit_page_tab_1.png" alt=""/></div>
+                                <p class="size_bigger">Если утверждения ниже верны, смело обращайтесь в один из магазинов-партнеров.
+                                    Ваши шансы получить кредит в Альфа-Баке очень высоки!</p>
+
+                                <ul class="order_type_brick">
+                                    <li class="li_1">Вы — гражданин Украины и Ваш возраст от 21 до 70 лет.</li>
+                                    <li class="li_2">Вы оформляете кредит по месту фактического проживания или юридического адреса работы.</li>
+                                    <li class="li_3">У Вас есть постоянное место работы, стаж на котором составляет не менее 3 месяцев (для неработающих пенсионеров — 0 мес., для СПД / ФОП — 12 мес).</li>
+                                    <li class="li_4">Вы имеете при себе оригиналы паспорта и идентификационного кода.</li>
+                                    <li class="li_5">У Вас нет просроченной задолженности по кредиту.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="tab"><div class="tab_inner"></div></div>
+                        <div class="tab"><div class="tab_inner"></div></div>
+                        <div class="tab"><div class="tab_inner"></div></div>
+                    </div><!--.credit_page_tabs_body-->
+                </div>
+            </div><!--.credit_page_tabs-->
+
+            <div class="credit_page_tabs bg_gray length_short js_tabs">
+                <div class="max_width">
+                    <h2>Необходимая информация по продукту</h2>
+                    <div class="credit_page_tabs_head js_tabs_head">
+                        <div class="tab">Главное</div>
+                        <div class="tab">Зачем страховать кредит</div>
+                        <div class="tab">Каналы погашения кредита</div>
+                        <div class="tab">Условия и тарифы</div>
+                    </div><!--.credit_page_tabs_head-->
+                    <div class="credit_page_tabs_body js_tabs_body">
+                        <div class="tab">
+                            <div class="tab_half left">
+                                <p class="size_bigger">Вы ускорите время получения кредита, если будете иметь при себе</p>
+                            </div>
+
+                            <div class="tab_half right">
+                                <ul>
+                                    <li>Информацию об месте работы: полное название организации, стационарный телефон (Ваш, бухгалтерии или отдела кадров).</li>
+                                    <li>Номера контактных телефонов мобильный, домашний и рабочий, а также стационарный телефон контактного лица.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="tab"></div>
+                        <div class="tab"></div>
+                        <div class="tab"></div>
+                    </div><!--.credit_page_tabs_body-->
+                </div>
+            </div><!--.credit_page_tabs-->
+
+            <div class="credit_page_info_block">
+                <div class="max_width">
+                    <p>Если Вы желаете сделать большую покупку при небольшом доходе семьи — выберите себе более длительный срок погашения и увеличьте сумму первого взноса в магазине.</p>
+                </div>
+            </div><!--.credit_page_info_block-->
+
+            <div class="credit_page_calculator">
+                <h2>Посчитать и оформить</h2>
+
+                <form class="form form_calculator_1" action="" method="post">
+                    <div class="field">
+                        <label>Город</label>
+                        <div class="input_holder">
+                            <input type="text" name="data[city]">
+                        </div>
+                    </div>
+
+                    <div class="field field_store">
+                        <label>Магазин</label>
+                        <div class="input_holder">
+                            <select class="custom_select" name="data[store]">
+                                <option value="0">Эльдорадо</option>
+                                <option value="1">Фокстрот</option>
+                                <option value="2">Сильпо</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="field field_product">
+                        <label>Желаемый товар</label>
+                        <div class="input_holder">
+                            <select class="custom_select" name="data[product]">
+                                <option value="0">Телевизор</option>
+                                <option value="1">Мобила</option>
+                                <option value="2">Магнитола</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+
+                    <div class="field field_cost">
+                        <label>Стоимость товара <span>UAH</span></label>
+                        <div class="input_holder">
+                            <input type="text" name="data[cost]">
+                            <div class="input_helper_draggable" data-min="0" data-max="5000"></div>
+                        </div>
+                    </div>
+                    <div class="field field_duration">
+                        <label>На срок <span>мес.</span></label>
+                        <div class="input_holder">
+                            <input type="text" name="data[duration]">
+                            <div class="input_helper_draggable" data-min="0" data-max="20"></div>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+
+                    <div class="form_infobar">
+                        <div class="infobar_part_1">
+                            <div class="title">стоимость товара</div>
+                            <div class="descr">33 000 грн</div>
+                        </div>
+                        <div class="infobar_part_2">
+                            <div class="title">на срок</div>
+                            <div class="descr">12 мес</div>
+                        </div>
+                        <div class="infobar_part_3">
+                            <div class="title">ежемесячный платеж</div>
+                            <div class="descr">2 350 грн</div>
+                        </div>
+                    </div>
+
+                    <div class="field field_assurance">
+                        <label class="label_name">Застраховать кредит</label>
+                        <label class="custom_checkbox"><input type="checkbox" name="data[checkbox]"> от временной потери работы</label>
+                        <label class="custom_checkbox"><input type="checkbox" name="data[checkbox]"> от несчастного случая</label>
+                    </div>
+
+                    <div class="tac">
+                        <div class="submit btn btn_big btn_red">
+                            <input type="submit" class="input_btn" value="оформить заявку">
+                        </div>
+                    </div>
+                </form>
+            </div><!--.credit_page_calculator-->
+        </div><!--.middle-->
+
+        <footer class="footer">
+            <div class="max_width">
+                <div class="footer_head">
+                    <div class="logos">
+                        <!-- any width x 50 -->
+                        <a href=""><img src="images/samples/footer_logo_1.png" alt=""/></a>
+                        <a href=""><img src="images/samples/footer_logo_2.png" alt=""/></a>
+                        <a href=""><img src="images/samples/footer_logo_3.png" alt=""/></a>
+                        <a href=""><img src="images/samples/footer_logo_4.png" alt=""/></a>
+                        <a href=""><img src="images/samples/footer_logo_5.png" alt=""/></a>
+                        <a href=""><img src="images/samples/footer_logo_6.png" alt=""/></a>
+                    </div>
+                </div><!--.footer_head-->
+
+                <div class="footer_body">
+                    <div class="clmn">
+                        <a href="">Клиентам Крыма</a>
+                        <a href="">Залоговое имущество</a>
+                        <a href="">Тендерный комитет</a>
+                        <a href="">Вакансии</a>
+                    </div>
+                    <div class="clmn">
+                        <a href="">Депозиты</a>
+                        <a href="">Кредиты</a>
+                        <a href="">Банковские карты</a>
+                        <a href="">Денежные переводы</a>
+                        <a href="">Тарифные пакеты</a>
+                    </div>
+                    <div class="clmn">
+                        <a href="">Новости</a>
+                        <a href="">Обратная связь</a>
+                        <a href="">Зарплатный проект</a>
+                    </div>
+                    <div class="clmn wide">
+                        <div class="phone"><b>0 800 50 20 50</b><br/>
+                            круглосуточно (бесплатно с моб. по Украине)</div>
+                    </div>
+
+                    <!--<a class="sitemap_link" href=""><i class="icon icon_sitemap"></i></a>-->
+                    <a class="search_link" href=""><i class="icon icon_search"></i></a>
+                </div><!--.footer_body-->
+
+                <div class="footer_footer">
+                    <div class="copyright">© 2009 ПАО «Альфа-Банк» (Украина). Лицензия НБУ №61 от 05.10.2011 г.</div>
+                    <a href="" class="developer"></a>
+                    <a href="" class="agency"></a>
+                </div><!--.footer_footer-->
+            </div>
+
+            <div class="footer_social">
+                <a href=""><i class="icon icon_fb"></i></a>
+                <a href=""><i class="icon icon_vk"></i></a>
+                <a href=""><i class="icon icon_od"></i></a>
+                <a href=""><i class="icon icon_tw"></i></a>
+                <a href=""><i class="icon icon_li"></i></a>
+                <a href=""><i class="icon icon_yt"></i></a>
+                <a href=""><i class="icon icon_gp"></i></a>
+                <a href=""><i class="icon icon_rs"></i></a>
+            </div>
+        </footer>
+    </div>
+</div>
+<!-- END wrapper-->
+
+<!-- BEGIN popups -->
+<div class="popup_holder">
+    <div class="dtable">
+        <div class="dtcell">
+
+        </div>
+        <i class="back" id="back"></i>
+    </div>
+</div>
+<!-- END popups -->
+
+<!--Yandex Metrika Code-->
+<!--/Yandex Metrika Code-->
+
+</body>
+</html>

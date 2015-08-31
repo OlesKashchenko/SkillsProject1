@@ -1,0 +1,6 @@
+[submodule "workbench/yaro/jarboe"]
+	path = workbench/yaro/jarboe
+	url = git@github.com:OlesKashchenko/Jarboe.git
+[submodule "workbench/oles-kashchenko/lar-share"]
+	path = workbench/oles-kashchenko/lar-share
+	url = git@github.com:OlesKashchenko/LarShare.git

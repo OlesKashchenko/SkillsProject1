@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+
+    <title></title>
+    <meta name="title" content=""/>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+
+    <meta property="og:title" content="" />
+    <meta property="og:description" content=""/>
+    <meta property="og:image" content="" />
+    <link rel="image_src" href="">
+    <meta property="og:url" content="" />
+	
+	<meta name="viewport" content="width=device-width">
+	
+    <!--<base href="" >-->
+
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+
+    <link rel="stylesheet" href="css/bxslider/jquery.bxslider.css" type="text/css" media="screen, projection, print"/>
+    <link rel="stylesheet" href="css/libs/jquery.fs.selecter.css" type="text/css" media="screen, projection, print"/>
+    <link rel="stylesheet" href="css/map.css" type="text/css" media="screen, projection, print"/>
+    <link rel="stylesheet" href="css/main.css" type="text/css" media="screen, projection, print"/>
+
+    <!-- secure fixed appearance for skype system changes -->
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+
+    <script type="text/javascript" src="js/libs/modernizr-2.6.2.min.js"></script>
+	
+    <!--<script type="text/javascript" src="js/libs/ie-html5tags.js"></script>-->
+    <!--<script type="text/javascript" src="js/libs/ie-mediaqueries.js"></script>-->
+	
+    <script type="text/javascript" src="js/libs/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="js/libs/jquery-ui-1.10.0.custom.js"></script>
+    <script type="text/javascript" src="js/libs/jquery.ui.touch-punch.min.js"></script>
+
+    <script type="text/javascript" src="js/libs/jquery.bxslider.min.js"></script>
+    <script type="text/javascript" src="js/libs/jquery.fs.selecter.min.js"></script>
+
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script type="text/javascript" src="js/libs/infobox.js"></script>
+    <script type="text/javascript" src="js/libs/markercluster.js"></script>
+    <script type="text/javascript" src="js/libs/map.js"></script>
+
+    <script type="text/javascript" src="js/script.js"></script>
+
+    <!--Google Analytics Code-->
+    <!--/Google Analytics Code-->
+</head>
+
+<body>
+<!-- BEGIN wrapper-->
+<div class="wrapper">
+    <div class="nav_sidebar_holder">
+        <div class="nav_sidebar">
+            <div class="part_1">
+                <span class="sidebar_icon_0"><a href="">Интернет-банк</a></span>
+                <span class="sidebar_icon_1"><a href="">Заявка на кредит</a></span>
+                <span class="sidebar_icon_2"><a href="">Заявка на депозит</a></span>
+                <span class="sidebar_icon_3"><a href="">Онлайн погашения</a></span>
+                <span class="sidebar_icon_4"><a href="">Билеты жд/авиа</a></span>
+                <span class="sidebar_icon_5"><a href="">Билеты кино/театр</a></span>
+                <span class="sidebar_icon_6"><a href="">Пополнить счет</a></span>
+                <span class="sidebar_icon_7"><a href="">Обратная связь</a></span>
+                <span class="sidebar_icon_8"><a href="">Отделения и банкоматы</a></span>
+            </div>
+            <i class="nav_sidebar_burger"></i>
+        </div><!--.nav_sidebar-->
+    </div><!--.nav_sidebar_holder-->
+
+    <div class="wrapper_inner">
+        <header class="header">
+            <a class="logo" href="/"><img src="images/logo_header.png" alt=""/></a>
+            <ul class="lang">
+                <li class="act"><span>ua</span></li>
+                <li><a href="">ru</a></li>
+                <li class="disabled">
+                    <a href="">en</a>
+                    <div class="hint">
+                        Language is temporarily unavailable
+                    </div>
+                </li>
+            </ul>
+
+            <a href="" class="a_club">A-CLUB</a>
+
+            <div class="nav_right">
+                <a href="">О Банке</a>
+                <a href="">Investor Relations</a>
+                <span class="vr"></span>
+                <a href="feedback.html" class="act">Обратная Связь</a>
+                <a href="">Отделения и банкоматы</a>
+            </div>
+
+            <div class="nav_main short">
+                <div class="nav_main_inner">
+                    <a class="nav_main_logo" href=""></a>
+                    <div class="nav_links">
+                        <span class="act">Частным лицам</span>
+                        <span>Малому бизнесу</span>
+                        <span>Корпоративному бизнесу</span>
+                        <span>Финансовым институтам</span>
+                    </div>
+                    <div class="btn"><a href="">Интернет-банк</a></div>
+                    <div class="fake_sidebar_icon"></div>
+
+                    <div class="nav_main_sub">
+                        <div class="nav_main_sub_item act">
+                            <a class="sub_0_0" href="">Кредиты</a>
+                            <a class="sub_0_1" href="">Депозиты</a>
+                            <a class="sub_0_2" href="">Банковские карты</a>
+                            <a class="sub_0_3" href="">Платежи и переводы</a>
+                        </div>
+                        <div class="nav_main_sub_item">
+                            <a class="sub_1_0" href="">Банковские карты</a>
+                            <a class="sub_1_1" href="">Депозиты</a>
+                            <a class="sub_1_2" href="">Кредиты</a>
+                            <a class="sub_1_3" href="">Платежи и переводы</a>
+                        </div>
+                    </div><!--.nav_main_sub-->
+                </div><!--.nav_main_inner-->
+            </div><!--.nav_main-->
+        </header>
+
+        <div class="middle">
+            <div class="feedback_intro">
+                <h2>Мы на связи 24 / 7</h2>
+                <p>Здесь вы можете найти ответы на свои вопросы</p>
+                <div class="search_block">
+                    <form class="form" action="" method="post">
+                        <div class="field">
+                            <div class="input_holder">
+                                <div class="placeholder">Поиск вопроса по тегам</div>
+                                <input type="text" name="data[search]">
+                            </div>
+                        </div>
+
+                        <div class="submit">
+                            <input type="submit" value="">
+                        </div>
+                    </form>
+                </div><!--.search_block-->
+            </div><!--.feedback_intro-->
+
+            <div class="faq_block">
+                <h2>Вопросы и ответы</h2>
+
+                <div class="max_width">
+                    <div class="faq_question">
+                        <div class="faq_title">Что такое льготный период по кредитной карте, сколько он длится?</div>
+                        <div class="faq_text">
+                            <div class="faq_text_inner">
+                                Льготный период – время, в течение которого банк дает возможность Вам использовать кредитную карту для расчетов в торгово-сервисных сетях по льготной процентной ставке 0,01%.
+                                Такая ставка применяется только при условии полного погашения всей суммы задолженности, которая существует на конец дня расчетного периода по карте.
+                                (Расчетный период – период, за который Банк производит начисления процентов,
+                                формирует отчет о состоянии счета и выставляет платежи к оплате) 1-ый льготный период начинается в дату оформления договора.
+                                Все последующие – на следующий день от даты оформления каждого месяца.
+                            </div>
+                        </div>
+                    </div><!--.faq_question-->
+
+                    <div class="faq_question">
+                        <div class="faq_title">Какие реквизиты банка (общие) мне нужны для пополнения карточного счета?</div>
+                        <div class="faq_text">
+                            <div class="faq_text_inner">
+                                Льготный период – время, в течение которого банк дает возможность Вам использовать кредитную карту для расчетов в торгово-сервисных сетях по льготной процентной ставке 0,01%.
+                                Такая ставка применяется только при условии полного погашения всей суммы задолженности, которая существует на конец дня расчетного периода по карте.
+                                (Расчетный период – период, за который Банк производит начисления процентов,
+                                формирует отчет о состоянии счета и выставляет платежи к оплате) 1-ый льготный период начинается в дату оформления договора.
+                                Все последующие – на следующий день от даты оформления каждого месяца.
+                            </div>
+                        </div>
+                    </div><!--.faq_question-->
+
+                    <div class="faq_question">
+                        <div class="faq_title">Как я могу узнать о поступлении денежных средств на оплату кредита?</div>
+                        <div class="faq_text">
+                            <div class="faq_text_inner">
+                                Льготный период – время, в течение которого банк дает возможность Вам использовать кредитную карту для расчетов в торгово-сервисных сетях по льготной процентной ставке 0,01%.
+                                Такая ставка применяется только при условии полного погашения всей суммы задолженности, которая существует на конец дня расчетного периода по карте.
+                                (Расчетный период – период, за который Банк производит начисления процентов,
+                                формирует отчет о состоянии счета и выставляет платежи к оплате) 1-ый льготный период начинается в дату оформления договора.
+                                Все последующие – на следующий день от даты оформления каждого месяца.
+                            </div>
+                        </div>
+                    </div><!--.faq_question-->
+                </div>
+            </div><!--.faq_block-->
+
+            <div class="feedback_form_block">
+                <div class="max_width">
+                    <h2>Не нашли ответ на свой вопрос?<br/>Задайте его нам</h2>
+
+                    <div class="feedback_form_tabs js_tabs">
+                        <div class="feedback_form_tabs_head js_tabs_head">
+                            <div class="tab">Для частных лиц</div>
+                            <div class="tab">Для корпоративных клиентов</div>
+                        </div>
+
+                        <div class="feedback_form_tabs_body js_tabs_body">
+                            <div class="tab">
+                                <form class="form" action="" method="post">
+                                    <div class="field">
+                                        <label>Ваше имя</label>
+                                        <div class="inputs_group">
+                                            <div class="input_holder">
+                                                <input type="text" name="data[name]">
+                                                <div class="placeholder">Фамилия</div>
+                                            </div>
+                                            <div class="input_holder">
+                                                <input type="text" name="data[name]">
+                                                <div class="placeholder">Имя</div>
+                                            </div>
+                                            <div class="input_holder">
+                                                <input type="text" name="data[name]">
+                                                <div class="placeholder">Отчество</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="field field_phone">
+                                        <label>Мобильный номер</label>
+                                        <div class="input_holder select_holder">
+                                            <select class="custom_select" name="data[phone_code]">
+                                                <option value="+38 098">+38 098</option>
+                                                <option value="+38 097">+38 097</option>
+                                                <option value="+38 096">+38 096</option>
+                                                <option value="+38 066">+38 066</option>
+                                                <option value="+38 050">+38 050</option>
+                                                <option value="+38 088">+38 088</option>
+                                            </select>
+                                        </div>
+                                        <div class="input_holder">
+                                            <input type="text" name="data[phone_number]">
+                                        </div>
+                                    </div>
+
+                                    <div class="field">
+                                        <label>Эл. адреса</label>
+                                        <div class="input_holder">
+                                            <input type="text" name="data[email]">
+                                        </div>
+                                    </div>
+
+                                    <div class="field field_subject">
+                                        <label>Тема вопроса</label>
+                                        <div class="input_holder">
+                                            <select class="custom_select" name="data[subject]">
+                                                <option value="1">Тема 1</option>
+                                                <option value="2">Тема 2</option>
+                                                <option value="3">Тема 3</option>
+                                                <option value="4">Тема 4</option>
+                                                <option value="5">Тема 5</option>
+                                                <option value="6">Тема 6</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="field">
+                                        <label>Ваш вопрос</label>
+                                        <div class="input_holder">
+                                            <textarea name="data[text]"></textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="field field_captcha">
+                                        <label>Сколько будет</label>
+                                        <div class="captcha_holder">
+                                            <img src="images/samples/captcha.jpg" alt=""/>
+                                            <span></span>
+                                        </div>
+                                        <div class="input_holder">
+                                            <input type="text" name="data[captcha]">
+                                        </div>
+                                    </div>
+
+                                    <div class="submit btn btn_red">
+                                        <input type="submit" class="input_btn" value="Отправить">
+                                    </div>
+                                </form>
+                            </div><!--.tab-->
+
+                            <div class="tab">
+                                <form class="form" action="" method="post">
+                                    <div class="field">
+                                        <label>Ваше имя</label>
+                                        <div class="input_holder">
+                                            <input type="text" name="data[name]">
+                                        </div>
+                                    </div>
+
+                                    <div class="field field_phone">
+                                        <label>Мобильный номер</label>
+                                        <div class="input_holder select_holder">
+                                            <select class="custom_select" name="data[phone_code]">
+                                                <option value="+38 098">+38 098</option>
+                                                <option value="+38 097">+38 097</option>
+                                                <option value="+38 096">+38 096</option>
+                                                <option value="+38 066">+38 066</option>
+                                                <option value="+38 050">+38 050</option>
+                                                <option value="+38 088">+38 088</option>
+                                            </select>
+                                        </div>
+                                        <div class="input_holder">
+                                            <input type="text" name="data[phone_number]">
+                                        </div>
+                                    </div>
+
+                                    <div class="field">
+                                        <label>Эл. адреса</label>
+                                        <div class="input_holder">
+                                            <input type="text" name="data[email]">
+                                        </div>
+                                    </div>
+
+                                    <div class="field field_subject">
+                                        <label>Тема вопроса</label>
+                                        <div class="input_holder">
+                                            <select class="custom_select" name="data[subject]">
+                                                <option value="1">Тема 1</option>
+                                                <option value="2">Тема 2</option>
+                                                <option value="3">Тема 3</option>
+                                                <option value="4">Тема 4</option>
+                                                <option value="5">Тема 5</option>
+                                                <option value="6">Тема 6</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="field">
+                                        <label>Ваш вопрос</label>
+                                        <div class="input_holder">
+                                            <textarea name="data[text]"></textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="field field_captcha">
+                                        <label>Сколько будет</label>
+                                        <div class="captcha_holder">
+                                            <img src="images/samples/captcha.jpg" alt=""/>
+                                            <span></span>
+                                        </div>
+                                        <div class="input_holder">
+                                            <input type="text" name="data[captcha]">
+                                        </div>
+                                    </div>
+
+                                    <div class="submit btn btn_red">
+                                        <input type="submit" class="input_btn" value="Отправить">
+                                    </div>
+                                </form>
+                            </div><!--.tab-->
+                        </div><!--.feedback_form_tabs_body-->
+                    </div><!--.feedback_form_tabs-->
+                </div>
+            </div><!--.feedback_form_block-->
+
+            <div class="toggle_block">
+                <div class="toggle_block_header">
+                    <h2>SMS инфо</h2>
+                </div><!--.toggle_block_header-->
+
+                <div class="toggle_block_body">
+                    <div class="toggle_block_body_inner">
+                        <div class="max_width">
+                            <div class="feedback_sms_info">
+                                <div class="icon_phone_holder"><i class="icon icon_phone"></i></div>
+                                <div class="subtitle">
+                                    Для получения информации по балансу кредитного договора и платежной карты достаточно отправить короткую sms-команду на номер
+                                    <i class="hint_holder">
+                                        <i class="hint wide">
+                                            услуга доступна с зарегистрированного в системах Банка мобильного номера телефона для всех GSM операторов Украины,
+                                            стоимость смс согласно тарифов Вашего оператора</i>
+                                    </i>
+                                </div>
+
+                                <div class="feedback_sms_phone">
+                                    <span>3</span>
+                                    <span>3</span>
+                                    <span>4</span>
+                                    <span>4</span>
+                                </div>
+
+                                <ul class="feedback_sms_phone_list">
+                                    <li>
+                                        <div class="description_name">Узнать доступный баланс и минимальный платеж по Вашей карте</div>
+                                        <div class="description_info">
+                                            <p>
+                                                1234
+                                                <span>последние 4 цифры номера<br/>
+                                                    платежной карты</span>
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="description_name">Узнать последние 3 операции по Вашей карте</div>
+                                        <div class="description_info">
+                                            <p>
+                                                Выписка
+                                                <span>или TRAN</span>
+                                            </p>
+                                            <p>
+                                                1234
+                                                <span>последние 4 цифры номера<br/>
+                                                    платежной карты</span>
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="description_name">Получить реквизиты для пополнения Вашей карты</div>
+                                        <div class="description_info">
+                                            <p>
+                                                Реквизиты
+                                                <span>или REK</span>
+                                            </p>
+                                            <p>
+                                                1234
+                                                <span>последние 4 цифры номера<br/>
+                                                    платежной карты</span>
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="description_name">Узнать дату и сумму текущего платежа, задолженности  и последнего поступления по Вашему кредиту</div>
+                                        <div class="description_info">
+                                            <p>
+                                                123456789
+                                                <span>9 цифр номера кредитного договора</span>
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="description_name">Получить реквизиты для оплаты Вашего кредита</div>
+                                        <div class="description_info">
+                                            <p>
+                                                Реквизиты
+                                                <span>или REK</span>
+                                            </p>
+                                            <p>
+                                                123456789
+                                                <span>9 цифр номера кредитного договора</span>
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="description_name">Узнать все доступные команды</div>
+                                        <div class="description_info">
+                                            <p>
+                                                Help
+                                                <span>или Info</span>
+                                            </p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--.toggle_block_body-->
+
+                <div class="toggle_block_footer"><div class="toggle_icon"></div></div><!--.toggle_block_footer-->
+            </div><!--.toggle_block-->
+
+            <div class="toggle_block closed">
+                <div class="toggle_block_header">
+                    <h2>Контакт центр</h2>
+                </div><!--.toggle_block_header-->
+                <div class="toggle_block_body">
+                    <div class="toggle_block_body_inner">
+                        <div class="max_width">
+                            <div class="feedback_contact_center_info">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore iure, ut! Alias
+                                    asperiores dicta et explicabo laborum odio placeat quaerat saepe sequi temporibus!
+                                    Et explicabo facilis ipsum mollitia suscipit. Aliquam amet aperiam consequuntur
+                                    facere itaque nobis omnis quae rem velit.</p>
+
+                                <ul>
+                                    <li>Lorem ipsum dolor sit amet.</li>
+                                    <li>Lorem ipsum dolor sit.</li>
+                                    <li>Lorem ipsum dolor sit amet, consectetur.</li>
+                                    <li>Lorem ipsum dolor sit amet.</li>
+                                    <li>Lorem ipsum dolor sit.</li>
+                                    <li>Lorem ipsum dolor sit amet, consectetur.</li>
+                                </ul>
+
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium error est
+                                    neque quibusdam repellendus reprehenderit tempora vitae.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--.toggle_block_body-->
+
+                <div class="toggle_block_footer"><div class="toggle_icon"></div></div><!--.toggle_block_footer-->
+            </div><!--.toggle_block-->
+        </div><!--.middle-->
+
+        <footer class="footer">
+            <div class="max_width">
+                <div class="footer_head">
+                    <div class="logos">
+                        <!-- any width x 50 -->
+                        <a href=""><img src="images/samples/footer_logo_1.png" alt=""/></a>
+                        <a href=""><img src="images/samples/footer_logo_2.png" alt=""/></a>
+                        <a href=""><img src="images/samples/footer_logo_3.png" alt=""/></a>
+                        <a href=""><img src="images/samples/footer_logo_4.png" alt=""/></a>
+                        <a href=""><img src="images/samples/footer_logo_5.png" alt=""/></a>
+                        <a href=""><img src="images/samples/footer_logo_6.png" alt=""/></a>
+                    </div>
+                </div><!--.footer_head-->
+
+                <div class="footer_body">
+                    <div class="clmn">
+                        <a href="">Клиентам Крыма</a>
+                        <a href="">Залоговое имущество</a>
+                        <a href="">Тендерный комитет</a>
+                        <a href="">Вакансии</a>
+                    </div>
+                    <div class="clmn">
+                        <a href="">Депозиты</a>
+                        <a href="">Кредиты</a>
+                        <a href="">Банковские карты</a>
+                        <a href="">Денежные переводы</a>
+                        <a href="">Тарифные пакеты</a>
+                    </div>
+                    <div class="clmn">
+                        <a href="">Новости</a>
+                        <a href="">Обратная связь</a>
+                        <a href="">Зарплатный проект</a>
+                    </div>
+                    <div class="clmn wide">
+                        <div class="phone"><b>0 800 50 20 50</b><br/>
+                            круглосуточно (бесплатно с моб. по Украине)</div>
+                    </div>
+
+                    <!--<a class="sitemap_link" href=""><i class="icon icon_sitemap"></i></a>-->
+                    <a class="search_link" href=""><i class="icon icon_search"></i></a>
+                </div><!--.footer_body-->
+
+                <div class="footer_footer">
+                    <div class="copyright">© 2009 ПАО «Альфа-Банк» (Украина). Лицензия НБУ №61 от 05.10.2011 г.</div>
+                    <a href="" class="developer"></a>
+                    <a href="" class="agency"></a>
+                </div><!--.footer_footer-->
+            </div>
+
+            <div class="footer_social">
+                <a href=""><i class="icon icon_fb"></i></a>
+                <a href=""><i class="icon icon_vk"></i></a>
+                <a href=""><i class="icon icon_od"></i></a>
+                <a href=""><i class="icon icon_tw"></i></a>
+                <a href=""><i class="icon icon_li"></i></a>
+                <a href=""><i class="icon icon_yt"></i></a>
+                <a href=""><i class="icon icon_gp"></i></a>
+                <a href=""><i class="icon icon_rs"></i></a>
+            </div>
+        </footer>
+    </div>
+</div>
+<!-- END wrapper-->
+
+<!-- BEGIN popups -->
+<div class="popup_holder">
+    <div class="dtable">
+        <div class="dtcell">
+
+        </div>
+        <i class="back" id="back"></i>
+    </div>
+</div>
+<!-- END popups -->
+
+<!--Yandex Metrika Code-->
+<!--/Yandex Metrika Code-->
+
+</body>
+</html>

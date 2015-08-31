@@ -1,0 +1,427 @@
+input.error {
+    background: #FFCCCC;
+}
+
+form.form input.error {
+    background: #FFCCCC;
+}
+
+form.form select.error {
+    background: #FFCCCC;
+}
+
+.header .nav_main .nav_main_inner .nav_links a {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    height: 20px;
+    padding: 20px 10px;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #fff;
+}
+
+.steps_list li {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 23%;
+    padding: 0 1%;
+}
+
+.credit_card_catalog_list li .card_name span {
+    max-width: 350px;
+}
+
+.credit_page_tabs h2 {
+    line-height: 40px;
+}
+
+.credit_page_info_block p {
+    margin-bottom: 15px;
+}
+
+.credit_page_tabs .credit_page_tabs_body .tab li {
+    min-height: 10px;
+}
+
+.credit_card_catalog_list li .card_name p {
+    max-width: 350px;
+}
+
+.info_block_bordered {
+    border-bottom: 1px solid #e9e9ea;
+}
+
+.info_block_bg_gray {
+    background: #f0f1f3;
+}
+
+.credit_page_tabs .table_holder {
+    padding: 50px 0 10px;
+}
+
+.credit_page_tabs table {
+    width: 1080px;
+    margin: 0 auto;
+    table-layout: fixed;
+}
+
+.credit_page_tabs .credit_page_tabs_body .tab table p {
+    position: relative;
+    margin: 0;
+    padding: 0 30px 30px;
+    font-size: 17px;
+    line-height: 26px;
+    font-weight: normal;
+}
+
+.credit_page_tabs table p:before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    margin: 2px 0;
+    background: url("../images/sprite.png") -320px -220px no-repeat;
+}
+
+.popup_partner_form .form_partner_form .field.field_checkbox a {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #2c2c30;
+}
+
+.popup_partner_form .form_partner_form .field.field_checkbox a:before {
+    content: " ";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    height: 2px;
+    margin-top: -3px;
+    background: #2c2c30;
+    opacity: 0.2;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+    filter: alpha(opacity=20);
+}
+
+.news_text_block table p {
+    margin: 10px;
+}
+
+.main_finances .main_exchange_rate table td p.zero:before {
+    background: none;
+}
+
+.page_business .footer, .page_business_custom .footer {
+    border-top: 1px solid #f0f1f3;
+}
+
+
+/*alexkor 10.08.2015*/
+.corporate_text_block a {
+    display: inline;
+}
+.corporate_text_block a:before {
+    top: auto;
+    bottom: -5px;
+}
+
+.page_card h2 {
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 100;
+    letter-spacing: -1.5px;
+    text-align: center;
+}
+
+/*alexkor 20.07.2015*/
+.page_credit_catalog .credit_catalog_block_item_info .credit_catalog_info.active {
+    margin-top: -50px;
+    opacity: 1;
+    -ms-filter: none;
+    filter: none;
+    visibility: visible;
+    -webkit-transition-delay: 100ms;
+    -moz-transition-delay: 100ms;
+    -o-transition-delay: 100ms;
+    -ms-transition-delay: 100ms;
+    transition-delay: 100ms;
+}
+
+.page_transfers_catalog .transfers_catalog_block_item_info .transfers_catalog_info.active {
+    margin-top: -50px;
+    opacity: 1;
+    -ms-filter: none;
+    filter: none;
+    visibility: visible;
+    -webkit-transition-delay: 100ms;
+    -moz-transition-delay: 100ms;
+    -o-transition-delay: 100ms;
+    -ms-transition-delay: 100ms;
+    transition-delay: 100ms;
+}
+
+.credit_card_catalog_list li .card_bg.active {
+    opacity: 1;
+    -ms-filter: none;
+    filter: none;
+}
+
+.business_page_offers_item.active .img_holder {
+    opacity: 0.1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
+    filter: alpha(opacity=10);
+}
+.business_page_offers_item.active .offer_text {
+    max-height: 180px;
+    opacity: 0.6;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+    filter: alpha(opacity=60);
+    visibility: visible;
+    transition: all 800ms;
+}
+
+.page_business_catalog .business_catalog_block_item_info.active + img {
+    opacity: 0.1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
+    filter: alpha(opacity=10);
+}
+.page_business_catalog .business_catalog_block_item_info.active h3 {
+    margin-top: -150px;
+}
+.page_business_catalog .business_catalog_block_item_info.active .business_catalog_info {
+    margin-top: -100px;
+    opacity: 1;
+    -ms-filter: none;
+    filter: none;
+    visibility: visible;
+    -webkit-transition-delay: 100ms;
+    -moz-transition-delay: 100ms;
+    -o-transition-delay: 100ms;
+    -ms-transition-delay: 100ms;
+    transition-delay: 100ms;
+}
+
+
+
+.business_catalog_list li.active .business_info {
+    color: #fff;
+}
+.business_catalog_list li.active .business_text {
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    visibility: hidden;
+}
+.business_catalog_list li.active .business_description,
+.business_catalog_list li.active .btn {
+    opacity: 1;
+    -ms-filter: none;
+    filter: none;
+    visibility: visible;
+}
+.business_catalog_list li.active .business_bg {
+    opacity: 0.4;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+    filter: alpha(opacity=40);
+}
+
+/*alexkor 20.07.2015*/
+
+
+.feedback_intro h2 {
+    color: #FBFFFD;
+}
+.feedback_intro p {
+    color: #FBFFFD;
+}
+
+.footer .footer_body .clmn.wide.wdth {
+    width: 17%;
+}
+/*structure.blade*/
+.page_investor_propery_text .investor_propery_wrapper .investor_propery_wrapper_margin .investor_propery_wrapper_second .investor_struct_arrows_bottom {
+    opacity: 0.5 !important;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+}
+.investor_doc_text_block .investor_struct_arrows_last {
+    border-top: 1.8px solid #B3B3B3;
+}
+.page_investor_propery_text .investor_propery_wrapper .investor_propery_wrapper_margin .investor_propery_wrapper_second {
+    border-top: 1.8px solid #B3B3B3;
+}
+.page_investor_propery_text .investor_propery_wrapper_name:hover {
+    background: #DEDEDE;
+}
+/* end structure.blade*/
+/*structure-corporate*/
+.investor_doc_text_block .investor_struct_a_text:hover {
+    background: #DEDEDE;
+}
+.investor_doc_text_block .investor_struct_ul ul a:hover {
+    background: #DEDEDE;
+}
+.investor_doc_text_block .investor_struct_arrows_right {
+    opacity: 0.5;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+}
+.investor_doc_text_block .investor_struct_arrows_left {
+    opacity: 0.5;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+}
+.investor_doc_text_block .investor_struct_arrows_bottom {
+    opacity: 0.5;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+}
+.investor_doc_text_block .investor_struct_arrows_struct .investor_struct_arrows_first {
+    border-bottom: 1.8px solid #B3B3B3;
+}
+.investor_doc_text_block .investor_struct_arrows_struct .investor_struct_arrows_second {
+    border-left: 1.8px solid #B3B3B3;
+    border-bottom: 1.8px solid #B3B3B3;
+}
+.investor_doc_text_block .investor_struct_arrows_struct .investor_struct_arrows_fourth {
+    border-right: 1.8px solid #B3B3B3;
+}
+.investor_doc_text_block .investor_struct_arrows_struct .investor_struct_arrows_third {
+    border-left: 1.8px solid #B3B3B3;
+}
+/*end structure-corporate*/
+
+/*alexkor 25.08.2015*/
+.credit_card_catalog_list li .card_image img {
+    max-width: 200px;
+    height: auto;
+}
+
+
+.header .nav_main_sub .nav_main_sub_item:first-child a.sub_0_0:before {
+    width: 24px;
+    height: 30px;
+    background: url("../images/icon_02_UPD.svg") no-repeat -8px -2px;
+    margin-top: -15px;
+    left: 18px;
+}
+.header .nav_main_sub .nav_main_sub_item:first-child a.sub_0_1:before {
+    width: 28px;
+    height: 22px;
+    background: url("../images/icon_02_UPD.svg") no-repeat -47px -9px;
+    margin-top: -11px;
+    left: 16px; 
+}
+.header .nav_main_sub .nav_main_sub_item:first-child a.sub_0_2:before {
+    width: 32px;
+    height: 22px;
+    background: url("../images/icon_02_UPD.svg") no-repeat -85px -9px;
+    margin-top: -11px;
+    left: 14px;
+}
+.header .nav_main_sub .nav_main_sub_item:first-child a.sub_0_3:before {
+    width: 38px;
+    height: 32px;
+    background: url("../images/icon_02_UPD.svg") no-repeat -120px -5px;
+    margin-top: -16px;
+    left: 11px;
+}
+
+.header .nav_main_sub .nav_main_sub_item:first-child+* a.sub_0_0:before {
+    width: 27px;
+    height: 26px;
+    background: url("../images/icon_02_UPD.svg") no-repeat -167px -7px;
+    margin-top: -15px;
+    left: 16px;
+}
+.header .nav_main_sub .nav_main_sub_item:first-child+* a.sub_0_1:before {
+    width: 28px;
+    height: 22px;
+    background: url("../images/icon_02_UPD.svg") no-repeat -47px -9px;
+    margin-top: -11px;
+    left: 16px; 
+}
+.header .nav_main_sub .nav_main_sub_item:first-child+* a.sub_0_2:before {
+    width: 32px;
+    height: 28px;
+    background: url("../images/icon_02_UPD.svg") no-repeat -205px -6px;
+    margin-top: -16px;
+    left: 14px;     
+}
+
+
+.header .nav_main_sub .nav_main_sub_item:first-child+*+* a.sub_0_1:before {
+    width: 28px;
+    height: 26px;
+    background: url("../images/icon_02_UPD.svg") no-repeat -246px -7px;
+    margin-top: -13px;
+    left: 16px;     
+}
+.header .nav_main_sub .nav_main_sub_item:first-child+*+* a.sub_0_2:before {
+    width: 24px;
+    height: 30px;
+    background: url("../images/icon_02_UPD.svg") no-repeat -288px -5px;
+    margin-top: -18px;
+    left: 18px;     
+}
+.header .nav_main_sub .nav_main_sub_item:first-child+*+* a.sub_0_3:before {
+    width: 28px;
+    height: 22px;
+    background: url("../images/icon_02_UPD.svg") no-repeat -47px -9px;
+    margin-top: -11px;
+    left: 16px; 
+}
+
+.header .nav_main_sub .nav_main_sub_item:first-child+*+*+* a.sub_0_0:before {
+    width: 30px;
+    height: 22px;
+    background: url("../images/icon_02_UPD.svg") no-repeat -325px -9px;
+    margin-top: -12px;
+    left: 15px; 
+}
+.header .nav_main_sub .nav_main_sub_item:first-child+*+*+* a.sub_0_1:before {
+    width: 26px;
+    height: 24px;
+    background: url("../images/icon_02_UPD.svg") no-repeat -367px -9px;
+    margin-top: -12px;
+    left: 17px; 
+}
+.header .nav_main_sub .nav_main_sub_item:first-child+*+*+* a.sub_0_2:before {
+    width: 28px;
+    height: 28px;
+    background: url("../images/icon_02_UPD.svg") no-repeat -5px -46px;
+    margin-top: -14px;
+    left: 16px; 
+}
+.header .nav_main_sub .nav_main_sub_item:first-child+*+*+* a.sub_0_5:before {
+    width: 24px;
+    height: 28px;
+    background: url("../images/icon_02_UPD.svg") no-repeat -48px -46px;
+    margin-top: -14px;
+    left: 18px; 
+}
+
+@media screen and (max-width: 1399px) {
+    .nav_main_sub a:before {
+        left: 5px !important;
+    }
+    .nav_main_sub a {
+        padding-left: 50px !important;
+    }
+}
+
+span.custom-popup-content {
+    display: none;
+    color: green;
+}

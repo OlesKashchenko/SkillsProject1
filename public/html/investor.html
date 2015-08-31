@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+
+    <title></title>
+    <meta name="title" content=""/>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+
+    <meta property="og:title" content="" />
+    <meta property="og:description" content=""/>
+    <meta property="og:image" content="" />
+    <link rel="image_src" href="">
+    <meta property="og:url" content="" />
+	
+	<meta name="viewport" content="width=device-width">
+	
+    <!--<base href="" >-->
+
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+
+    <link rel="stylesheet" href="css/bxslider/jquery.bxslider.css" type="text/css" media="screen, projection, print"/>
+    <link rel="stylesheet" href="css/libs/jquery.fs.selecter.css" type="text/css" media="screen, projection, print"/>
+    <link rel="stylesheet" href="css/map.css" type="text/css" media="screen, projection, print"/>
+    <link rel="stylesheet" href="css/main.css" type="text/css" media="screen, projection, print"/>
+
+    <!-- secure fixed appearance for skype system changes -->
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+
+    <script type="text/javascript" src="js/libs/modernizr-2.6.2.min.js"></script>
+	
+    <!--<script type="text/javascript" src="js/libs/ie-html5tags.js"></script>-->
+    <!--<script type="text/javascript" src="js/libs/ie-mediaqueries.js"></script>-->
+	
+    <script type="text/javascript" src="js/libs/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="js/libs/jquery-ui-1.10.0.custom.js"></script>
+    <script type="text/javascript" src="js/libs/jquery.ui.touch-punch.min.js"></script>
+
+    <script type="text/javascript" src="js/libs/jquery.bxslider.min.js"></script>
+    <script type="text/javascript" src="js/libs/jquery.fs.selecter.min.js"></script>
+
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script type="text/javascript" src="js/libs/infobox.js"></script>
+    <script type="text/javascript" src="js/libs/markercluster.js"></script>
+    <script type="text/javascript" src="js/libs/map.js"></script>
+
+    <script type="text/javascript" src="js/script.js"></script>
+
+    <!--Google Analytics Code-->
+    <!--/Google Analytics Code-->
+</head>
+
+<body>
+<!-- BEGIN wrapper-->
+<div class="wrapper">
+    <div class="nav_sidebar_holder">
+        <div class="nav_sidebar">
+            <div class="part_1">
+                <span class="sidebar_icon_0"><a href="">Интернет-банк</a></span>
+                <span class="sidebar_icon_1"><a href="">Заявка на кредит</a></span>
+                <span class="sidebar_icon_2"><a href="">Заявка на депозит</a></span>
+                <span class="sidebar_icon_3"><a href="">Онлайн погашения</a></span>
+                <span class="sidebar_icon_4"><a href="">Билеты жд/авиа</a></span>
+                <span class="sidebar_icon_5"><a href="">Билеты кино/театр</a></span>
+                <span class="sidebar_icon_6"><a href="">Пополнить счет</a></span>
+                <span class="sidebar_icon_7"><a href="">Обратная связь</a></span>
+                <span class="sidebar_icon_8"><a href="">Отделения и банкоматы</a></span>
+            </div>
+            <i class="nav_sidebar_burger"></i>
+        </div><!--.nav_sidebar-->
+    </div><!--.nav_sidebar_holder-->
+
+    <div class="wrapper_inner">
+        <header class="header">
+            <a class="logo" href="/"><img src="images/logo_header.png" alt=""/></a>
+            <ul class="lang">
+                <li class="act"><span>ua</span></li>
+                <li><a href="">ru</a></li>
+                <li class="disabled">
+                    <a href="">en</a>
+                    <div class="hint">
+                        Language is temporarily unavailable
+                    </div>
+                </li>
+            </ul>
+
+            <a href="" class="a_club">A-CLUB</a>
+
+            <div class="nav_right">
+                <a href="">О Банке</a>
+                <a href="" class="act">Investor Relations</a>
+                <span class="vr"></span>
+                <a href="feedback.html">Обратная Связь</a>
+                <a href="">Отделения и банкоматы</a>
+            </div>
+
+            <div class="nav_main short">
+                <div class="nav_main_inner">
+                    <a class="nav_main_logo" href=""></a>
+                    <div class="nav_links">
+                        <a href="">Частным лицам</a>
+                        <a href="">Малому бизнесу</a>
+                        <a href="">Корпоративному бизнесу</a>
+                        <a href="">Финансовым институтам</a>
+                    </div>
+                    <div class="btn"><a href="">Интернет-банк</a></div>
+                    <div class="fake_sidebar_icon"></div>
+
+                    <div class="nav_main_sub">
+                        <div class="nav_main_sub_item act">
+                            <a class="sub_0_0" href="">Кредиты</a>
+                            <a class="sub_0_1" href="">Депозиты</a>
+                            <a class="sub_0_2" href="">Банковские карты</a>
+                            <a class="sub_0_3" href="">Платежи и переводы</a>
+                        </div>
+                        <div class="nav_main_sub_item">
+                            <a class="sub_1_0" href="">Банковские карты</a>
+                            <a class="sub_1_1" href="">Депозиты</a>
+                            <a class="sub_1_2" href="">Кредиты</a>
+                            <a class="sub_1_3" href="">Платежи и переводы</a>
+                        </div>
+                    </div><!--.nav_main_sub-->
+                </div><!--.nav_main_inner-->
+            </div><!--.nav_main-->
+        </header>
+
+        <div class="middle">
+            <div class="boxes_intro">
+                <!-- row 1 -->
+                <div class="box medium">
+                    <a href="" class="box_inner">
+                        <div class="dtable">
+                            <div class="dtcell">
+                                <span>Акционеры</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="box big has_img">
+                    <a href="" class="box_inner">
+                        <div class="dtable">
+                            <div class="dtcell">
+                                <img src="images/samples/box_img_1.jpg" alt=""/>
+                                <span>Корпоративное управление</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="box medium">
+                    <a href="" class="box_inner">
+                        <div class="dtable">
+                            <div class="dtcell">
+                                <span>Управление<br/>рисками</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="box medium">
+                    <div class="box_inner">
+                        <div class="box small">
+                            <a href="" class="box_inner">
+                                <div class="dtable">
+                                    <div class="dtcell">
+                                        <span>Ревизионная<br/>комиссия</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="box small has_img">
+                            <a href="" class="box_inner">
+                                <div class="dtable">
+                                    <div class="dtcell">
+                                        <img src="images/samples/box_img_2.jpg" alt=""/>
+                                        <span>Внутренний<br/>аудит</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- row 2 -->
+                <div class="box medium has_img">
+                    <a href="" class="box_inner">
+                        <div class="dtable">
+                            <div class="dtcell">
+                                <img src="images/samples/box_img_3.jpg" alt=""/>
+                                <span>Наблюдательный<br/>совет</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="box medium">
+                    <div class="box_inner">
+                        <div class="box small has_img">
+                            <a href="" class="box_inner">
+                                <div class="dtable">
+                                    <div class="dtcell">
+                                        <img src="images/samples/box_img_4.jpg" alt=""/>
+                                        <span>Правление</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="box small">
+                            <a href="" class="box_inner">
+                                <div class="dtable">
+                                    <div class="dtcell">
+                                        <span>Руководство</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box medium">
+                    <a href="" class="box_inner">
+                        <div class="dtable">
+                            <div class="dtcell">
+                                <span>Уставные документы<br/>и лицензии</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="box big has_img">
+                    <a href="" class="box_inner">
+                        <div class="dtable">
+                            <div class="dtcell">
+                                <img src="images/samples/box_img_5.jpg" alt=""/>
+                                <span>Раскрытие информации</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div><!--.boxes_intro-->
+
+            <div class="investor_reports">
+                <div class="max_width">
+                    <h2>Отчетность</h2>
+                    <div class="select_holder mini_red">
+                        <select class="custom_select">
+                            <option value="2014">2014</option>
+                            <option value="2013">2013</option>
+                            <option value="2012">2012</option>
+                            <option value="2011">2011</option>
+                            <option value="2010">2010</option>
+                        </select>
+                    </div>
+                    <div class="clear"></div>
+
+                    <div class="investor_reports_tabs js_tabs">
+                        <div class="investor_reports_tabs_head js_tabs_head">
+                            <div class="tab">Квартальная</div>
+                            <div class="tab">Годовая</div>
+                            <div class="tab">Эмитент ценных бумаг</div>
+                        </div><!--.investor_reports_tabs_head-->
+
+                        <div class="investor_reports_tabs_body js_tabs_body">
+                            <div class="tab">
+                                <ul>
+                                    <li>
+                                        <a href="">
+                                            Отчет о финансовом состоянии
+                                            <span class="type">PDF</span><span class="size">1,5 Mb</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            Отчет о прибыли и убытках и прочем совокупном доходе
+                                            <span class="type">PDF</span><span class="size">2,3 Mb</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            Потенциальные обязательства банка
+                                            <span class="type">PDF</span><span class="size">7,1 Mb</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            Отчет о финансовом состоянии
+                                            <span class="type">PDF</span><span class="size">1,5 Mb</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            Отчет о прибыли и убытках и прочем совокупном доходе
+                                            <span class="type">PDF</span><span class="size">2,3 Mb</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            Потенциальные обязательства банка
+                                            <span class="type">PDF</span><span class="size">7,1 Mb</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <a class="show_more" href="">показать все 8 отчетов</a>
+                            </div>
+                            <div class="tab"></div>
+                            <div class="tab"></div>
+                        </div><!--.investor_reports_tabs_body-->
+                    </div><!--.investor_reports_tabs-->
+                </div>
+            </div><!--.investor_reports-->
+
+            <div class="investor_rating">
+                <div class="max_width">
+                    <a class="btn btn_yellow corner_btn" href=""><span>Альфа достижения</span></a>
+
+                    <div class="investor_rating_tabs js_tabs">
+                        <div class="investor_rating_tabs_head js_tabs_head">
+                            <div class="tab">Fitch Raitings</div>
+                            <div class="tab">Эксперт-Рейтинг</div>
+                        </div>
+
+                        <div class="investor_rating_tabs_body js_tabs_body">
+                            <div class="tab">
+                                <div class="items_holder row_full">
+                                    <h4>В иностранной валюте</h4>
+                                    <div class="item">
+                                        <span>CCC</span>
+                                        <p>долгосрочный рейтинг дефолта эмитента</p>
+                                    </div>
+                                    <div class="item">
+                                        <span>C</span>
+                                        <p>краткосрочный рейтинг дефолта эмитента</p>
+                                    </div>
+                                    <div class="item">
+                                        <span>ccc</span>
+                                        <p>рейтинг устойчивости</p>
+                                    </div>
+                                    <div class="item">
+                                        <span>5</span>
+                                        <p>рейтинг поддержки</p>
+                                    </div>
+                                </div>
+
+                                <div class="items_holder">
+                                    <h4>В национальной валюте</h4>
+                                    <div class="item">
+                                        <span>B-</span>
+                                        <p>долгосрочный рейтинг дефолта эмитента</p>
+                                    </div>
+                                    <div class="item">
+                                        <span>Негативный</span>
+                                        <p>прогноз</p>
+                                    </div>
+                                </div>
+
+                                <div class="items_holder">
+                                    <h4>По национальной шкале</h4>
+                                    <div class="item">
+                                        <span>
+                                            АА+ (ukr)
+                                            <i class="hint_holder">
+                                                <i class="hint">
+                                                    Инвестиционный<br/>класс
+                                                </i>
+                                            </i>
+                                        </span>
+                                        <p>долгосрочный рейтинг</p>
+                                    </div>
+                                    <div class="item">
+                                        <span>Стабильный</span>
+                                        <p>прогноз</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="tab"></div>
+                        </div>
+                    </div><!--.investor_rating_tabs-->
+                </div>
+            </div><!--.investor_rating-->
+
+            <div class="investor_brief">
+                <div class="max_width">
+                    <div class="investor_brief_item type_1">
+                        <h3>Презентации</h3>
+                        <div class="select_holder mini_red">
+                            <select class="custom_select">
+                                <option option="2014">2014</option>
+                                <option option="2013">2013</option>
+                                <option option="2012">2012</option>
+                                <option option="2011">2011</option>
+                                <option option="2010">2010</option>
+                            </select>
+                        </div>
+
+                        <div class="slider_holder" data-scroll-year="2015">
+                            <ul class="bxslider">
+                                <li>
+                                    <a href="" class="download_item">
+                                        <!-- 210x150 -->
+                                        <img src="images/samples/investor_brief_1.jpg" alt=""/>
+                                        <span class="name">Буклет "О Банке:<br/>2013-2014"</span>
+                                        <span class="size">2,3 Mb</span>
+                                        <span class="type">PDF</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="download_item">
+                                        <!-- 210x150 -->
+                                        <img src="images/samples/investor_brief_2.jpg" alt=""/>
+                                        <span class="name">Буклет "О Банке:<br/>2013-2014"</span>
+                                        <span class="size">2,3 Mb</span>
+                                        <span class="type">PDF</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="download_item">
+                                        <!-- 210x150 -->
+                                        <img src="images/samples/investor_brief_3.jpg" alt=""/>
+                                        <span class="name">Буклет "О Банке:<br/>2013-2014"</span>
+                                        <span class="size">2,3 Mb</span>
+                                        <span class="type">PDF</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="slider_holder" data-scroll-year="2014">
+                            <ul class="bxslider">
+                                <li>
+                                    <a href="" class="download_item">
+                                        <!-- 210x150 -->
+                                        <img src="images/samples/investor_brief_1.jpg" alt=""/>
+                                        <span class="name">Буклет "О Банке:<br/>2013-2014"</span>
+                                        <span class="size">2,3 Mb</span>
+                                        <span class="type">PDF</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="download_item">
+                                        <!-- 210x150 -->
+                                        <img src="images/samples/investor_brief_2.jpg" alt=""/>
+                                        <span class="name">Буклет "О Банке:<br/>2013-2014"</span>
+                                        <span class="size">2,3 Mb</span>
+                                        <span class="type">PDF</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="download_item">
+                                        <!-- 210x150 -->
+                                        <img src="images/samples/investor_brief_3.jpg" alt=""/>
+                                        <span class="name">Буклет "О Банке:<br/>2013-2014"</span>
+                                        <span class="size">2,3 Mb</span>
+                                        <span class="type">PDF</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="slider_holder" data-scroll-year="2013">
+                            <ul class="bxslider">
+                                <li>
+                                    <a href="" class="download_item">
+                                        <!-- 210x150 -->
+                                        <img src="images/samples/investor_brief_1.jpg" alt=""/>
+                                        <span class="name">Буклет "О Банке:<br/>2013-2014"</span>
+                                        <span class="size">2,3 Mb</span>
+                                        <span class="type">PDF</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="download_item">
+                                        <!-- 210x150 -->
+                                        <img src="images/samples/investor_brief_2.jpg" alt=""/>
+                                        <span class="name">Буклет "О Банке:<br/>2013-2014"</span>
+                                        <span class="size">2,3 Mb</span>
+                                        <span class="type">PDF</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="download_item">
+                                        <!-- 210x150 -->
+                                        <img src="images/samples/investor_brief_3.jpg" alt=""/>
+                                        <span class="name">Буклет "О Банке:<br/>2013-2014"</span>
+                                        <span class="size">2,3 Mb</span>
+                                        <span class="type">PDF</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="slider_holder" data-scroll-year="2012">
+                            <ul class="bxslider">
+                                <li>
+                                    <a href="" class="download_item">
+                                        <!-- 210x150 -->
+                                        <img src="images/samples/investor_brief_1.jpg" alt=""/>
+                                        <span class="name">Буклет "О Банке:<br/>2013-2014"</span>
+                                        <span class="size">2,3 Mb</span>
+                                        <span class="type">PDF</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="download_item">
+                                        <!-- 210x150 -->
+                                        <img src="images/samples/investor_brief_2.jpg" alt=""/>
+                                        <span class="name">Буклет "О Банке:<br/>2013-2014"</span>
+                                        <span class="size">2,3 Mb</span>
+                                        <span class="type">PDF</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="download_item">
+                                        <!-- 210x150 -->
+                                        <img src="images/samples/investor_brief_3.jpg" alt=""/>
+                                        <span class="name">Буклет "О Банке:<br/>2013-2014"</span>
+                                        <span class="size">2,3 Mb</span>
+                                        <span class="type">PDF</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="slider_holder" data-scroll-year="2011">
+                            <ul class="bxslider">
+                                <li>
+                                    <a href="" class="download_item">
+                                        <!-- 210x150 -->
+                                        <img src="images/samples/investor_brief_1.jpg" alt=""/>
+                                        <span class="name">Буклет "О Банке:<br/>2013-2014"</span>
+                                        <span class="size">2,3 Mb</span>
+                                        <span class="type">PDF</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="download_item">
+                                        <!-- 210x150 -->
+                                        <img src="images/samples/investor_brief_2.jpg" alt=""/>
+                                        <span class="name">Буклет "О Банке:<br/>2013-2014"</span>
+                                        <span class="size">2,3 Mb</span>
+                                        <span class="type">PDF</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="download_item">
+                                        <!-- 210x150 -->
+                                        <img src="images/samples/investor_brief_3.jpg" alt=""/>
+                                        <span class="name">Буклет "О Банке:<br/>2013-2014"</span>
+                                        <span class="size">2,3 Mb</span>
+                                        <span class="type">PDF</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div><!--.investor_brief_item-->
+
+                    <div class="investor_brief_item type_2">
+                        <h3>Стратегия развития</h3>
+                        <p>Альфа-Банк Украина продолжает развиваться как надежный универсальный банк, входящий в международную банковскую группу «Альфа-Банк».</p>
+
+                        <div class="btn_holder">
+                            <a class="btn btn_red" href=""><span>подробнее</span></a>
+                        </div>
+                    </div><!--.investor_brief_item-->
+
+                    <div class="investor_brief_item type_3">
+                        <h3>Долговые обязательства</h3>
+                        <p>Альфа-Банк Украина на протяжении всей своей деятельности всегда выполнял и продолжает выполнять свои обязательства перед кредиторами и инвесторами. Cвоевременно и в полном объеме, что является значимым сигналом рынку о надежности Банка в качестве партнера.</p>
+
+                        <div class="btn_holder">
+                            <a class="btn btn_red" href=""><span>подробнее</span></a>
+                        </div>
+                    </div><!--.investor_brief_item-->
+                </div>
+            </div><!--.investor_brief-->
+
+            <div class="investor_reports">
+                <div class="max_width">
+                    <h2>Информация для инвесторов</h2>
+                    <div class="clear"></div>
+
+                    <div class="investor_reports_tabs js_tabs">
+                        <div class="investor_reports_tabs_head js_tabs_head">
+                            <div class="tab">Особая информация</div>
+                            <div class="tab">Проспект эмиссии облигаций</div>
+                            <div class="tab">Свидетельства о регистрации выпуска облигаций</div>
+                        </div><!--.investor_reports_tabs_head-->
+
+                        <div class="investor_reports_tabs_body js_tabs_body">
+                            <div class="tab">
+                                <ul>
+                                    <li>
+                                        <a href="">
+                                            Сообщение о принятии решения о размещении ценных бумаг на сумму, которая превышает 25% уставного капитала
+                                            <span class="type">PDF</span><span class="size">1,5 Mb</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            Сообщение о листинге облигаций серии K
+                                            <span class="type">PDF</span><span class="size">2,3 Mb</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tab"></div>
+                            <div class="tab"></div>
+                        </div><!--.investor_reports_tabs_body-->
+                    </div><!--.investor_reports_tabs-->
+                </div>
+            </div><!--.investor_reports-->
+
+            <div class="investor_news">
+                <div class="max_width">
+                    <h2>Новости</h2>
+
+                    <div class="sider_holder">
+                        <div class="bxslider">
+                            <ul>
+                                <li>
+                                    <a href="">
+                                        <i class="img-holder"><img src="images/samples/news_img_1.jpg" alt=""/></i>
+                                        <p>Альфа-Банк Украина продолжает работать с вкладчиками Европейского банка развития и сбережений</p>
+                                        <span>5 декабря, 2014</span>
+                                    </a>
+                                    <a href="">
+                                        <i class="img-holder"><img src="images/samples/news_img_1.jpg" alt=""/></i>
+                                        <p>Альфа-Банк Украина запустил новые сервисы для пользователейинтернет- банкинга «My Alfa-Bank»</p>
+                                        <span>4 декабря, 2014</span>
+                                    </a>
+                                    <a href="">
+                                        <i class="img-holder"><img src="images/samples/news_img_1.jpg" alt=""/></i>
+                                        <p>Альфа-Банк Украина начал выплачивать компенсации вкладчикам «Украинского финансового мира»</p>
+                                        <span>3 декабря, 2014</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="img-holder"><img src="images/samples/news_img_1.jpg" alt=""/></i>
+                                        <p>Альфа-Банк Украина продолжает работать с вкладчиками Европейского банка развития и сбережений</p>
+                                        <span>5 ноября, 2014</span>
+                                    </a>
+                                    <a href="">
+                                        <i class="img-holder"><img src="images/samples/news_img_1.jpg" alt=""/></i>
+                                        <p>Альфа-Банк Украина запустил новые сервисы для пользователейинтернет- банкинга «My Alfa-Bank»</p>
+                                        <span>4 ноября, 2014</span>
+                                    </a>
+                                    <a href="">
+                                        <i class="img-holder"><img src="images/samples/news_img_1.jpg" alt=""/></i>
+                                        <p>Альфа-Банк Украина начал выплачивать компенсации вкладчикам «Украинского финансового мира»</p>
+                                        <span>3 ноября, 2014</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div><!--.sider_holder-->
+                </div>
+            </div><!--.investor_news-->
+
+            <div class="investor_calendar">
+                <div class="investor_calendar_year">2015</div>
+                <h2>Финансовый календарь</h2>
+                <div class="drag_slider">
+                    <div class="max_width">
+                        <div class="bxslider">
+                            <ul>
+                                <li data-year="2015">
+                                    <div class="investor_calendar_item">
+                                        <div class="date">05 – 07</div>
+                                        <div class="subdate">января</div>
+                                        <p>Выплата процентного дохода по облигациям серии K за 3-й процентный период</p>
+                                    </div>
+                                    <div class="investor_calendar_item">
+                                        <div class="date">26 – 28</div>
+                                        <div class="subdate">января</div>
+                                        <p>Выплата процентного дохода по облигациям серии M за 1-й процентный период</p>
+                                    </div>
+                                    <div class="investor_calendar_item">
+                                        <div class="date">27 – 29</div>
+                                        <div class="subdate">апреля</div>
+                                        <p>Выплата процентного дохода по облигациям серии M за 2-й процентный период</p>
+                                    </div>
+                                    <div class="investor_calendar_item">
+                                        <div class="date">до 22</div>
+                                        <div class="subdate">июня</div>
+                                        <p>Публикация ставки на 5-6й купонные периоды по облигациям серии K</p>
+                                    </div>
+                                </li>
+                                <li data-year="2016">
+                                    <div class="investor_calendar_item">
+                                        <div class="date">15 – 27</div>
+                                        <div class="subdate">июля</div>
+                                        <p>Выплата процентного дохода по облигациям серии K за 3-й процентный период</p>
+                                    </div>
+                                    <div class="investor_calendar_item">
+                                        <div class="date">23 – 25</div>
+                                        <div class="subdate">августа</div>
+                                        <p>Выплата процентного дохода по облигациям серии M за 1-й процентный период</p>
+                                    </div>
+                                    <div class="investor_calendar_item">
+                                        <div class="date">17 – 22</div>
+                                        <div class="subdate">сентября</div>
+                                        <p>Выплата процентного дохода по облигациям серии M за 2-й процентный период</p>
+                                    </div>
+                                    <div class="investor_calendar_item">
+                                        <div class="date">до 12</div>
+                                        <div class="subdate">Октября</div>
+                                        <p>Публикация ставки на 5-6й купонные периоды по облигациям серии K</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div><!--.bxslider-->
+                    </div>
+
+                    <div class="drag_slider_controls">
+                        <div class="drag_slider_controls_dragbar"></div>
+                    </div><!--.drag_slider_controls-->
+               </div><!--.drag_slider-->
+
+            </div><!--.investor_calendar-->
+
+            <div class="investor_contacts_tabs js_tabs" data-autoheight="true">
+                <div class="max_width">
+                    <h2>Контакты</h2>
+                    <div class="investor_contacts_tabs_head js_tabs_head">
+                        <div class="tab">Общебанковские</div>
+                        <div class="tab">Представители</div>
+                    </div><!--.investor_contacts_tabs_head-->
+                </div>
+                <div class="investor_contacts_tabs_body js_tabs_body">
+                    <div class="tab">
+                        <div class="tab_inner">
+                            <div class="max_width">
+                                <p class="subtitle">Если у вас возникли вопросы или вам необходима дополнительная информация, пожалуйста, обращайтесь по указаным контактам.</p>
+
+                                <div class="dtable">
+                                    <div class="dtcell dtcell_address">
+                                        <p>Украина, 01001, г. Киев<br/>
+                                            ул. Десятинная, 4/6</p>
+                                    </div>
+
+                                    <div class="dtcell">
+                                        <p>+380 44 490 46 00</p>
+                                        <span>телефон</span>
+
+                                        <p>+380 44 499 10 41</p>
+                                        <span>прямой телефон</span>
+
+                                        <p>+380 44 490 46 01</p>
+                                        <span>факс</span>
+
+                                        <p>+380 44 499 10 35</p>
+                                        <span>прямой факс</span>
+                                    </div>
+
+                                    <div class="dtcell">
+                                        <p>ir@alfabank.kiev.ua</p>
+                                        <span>эл. адрес</span>
+
+                                        <p>732150 ALFA UX</p>
+                                        <span>телекс</span>
+
+                                        <p>ALFAUAUK</p>
+                                        <span>SWIFT код</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="contacts_map_holder">
+                                <div class="contacts_map" id="contacts_map"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab">
+                        <div class="tab_inner">
+                            <div class="representatives_info max_width">
+                                <div class="dtable">
+                                    <div class="dtcell">
+                                        <p><b>Владимир Лотоцкий</b></p>
+                                        <span>директор казначейства</span>
+
+                                        <p>+380 44 490 46 00</p>
+                                        <span>телефон</span>
+
+                                        <p>volodymyr.lototskyy@alfabank.kiev.ua</p>
+                                        <span>эл. адрес</span>
+                                    </div>
+                                    <div class="dtcell">
+                                        <p><b>Ольга Харина</b></p>
+                                        <span>начальник управления по работе с финансовыми институтами</span>
+
+                                        <p>+380 44 499 67 40</p>
+                                        <span>телефон</span>
+
+                                        <p>olga.kharina@alfabank.kiev.ua</p>
+                                        <span>эл. адрес</span>
+                                    </div>
+                                </div>
+                                <div class="dtable">
+                                    <div class="dtcell">
+                                        <p><b>Владимир Лотоцкий</b></p>
+                                        <span>директор казначейства</span>
+
+                                        <p>+380 44 490 46 00</p>
+                                        <span>телефон</span>
+
+                                        <p>volodymyr.lototskyy@alfabank.kiev.ua</p>
+                                        <span>эл. адрес</span>
+                                    </div>
+                                </div>
+
+                                <div class="hr"></div>
+
+                                <div class="dtable last_dtable">
+                                    <div class="dtcell">
+                                        <p><b>Владимир Лотоцкий</b></p>
+                                        <span>директор казначейства</span>
+
+                                        <p>+380 44 490 46 00</p>
+                                        <span>телефон</span>
+
+                                        <p>volodymyr.lototskyy@alfabank.kiev.ua</p>
+                                        <span>эл. адрес</span>
+                                    </div>
+                                    <div class="dtcell">
+                                        <p><b>Ольга Харина</b></p>
+                                        <span>начальник управления по работе с финансовыми институтами</span>
+
+                                        <p>+380 44 499 67 40</p>
+                                        <span>телефон</span>
+
+                                        <p>olga.kharina@alfabank.kiev.ua</p>
+                                        <span>эл. адрес</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--.investor_contacts_tabs_body-->
+            </div><!--.investor_contacts_tabs-->
+
+            <div class="rss_subscribe_block">
+                <div class="max_width">
+                    <h2>RSS подписка</h2>
+
+                    <div class="rss_block">
+                        <form class="form" action="" method="post">
+                            <div class="field">
+                                <div class="input_holder">
+                                    <div class="placeholder">Введите эл. адрес</div>
+                                    <input type="text" name="data[email]">
+                                </div>
+                            </div>
+
+                            <div class="submit btn btn_red">
+                                <input type="submit" class="input_btn" value="Подписаться">
+                            </div>
+                        </form>
+                    </div><!--.search_block-->
+                </div>
+            </div><!--.rss_subscribe_block-->
+
+        </div><!--.middle-->
+        <footer class="footer">
+            <div class="max_width">
+                <div class="footer_head">
+                    <div class="logos">
+                        <!-- any width x 50 -->
+                        <a href=""><img src="images/samples/footer_logo_1.png" alt=""/></a>
+                        <a href=""><img src="images/samples/footer_logo_2.png" alt=""/></a>
+                        <a href=""><img src="images/samples/footer_logo_3.png" alt=""/></a>
+                        <a href=""><img src="images/samples/footer_logo_4.png" alt=""/></a>
+                        <a href=""><img src="images/samples/footer_logo_5.png" alt=""/></a>
+                        <a href=""><img src="images/samples/footer_logo_6.png" alt=""/></a>
+                    </div>
+                </div><!--.footer_head-->
+
+                <div class="footer_body">
+                    <div class="clmn">
+                        <a href="">Клиентам Крыма</a>
+                        <a href="">Залоговое имущество</a>
+                        <a href="">Тендерный комитет</a>
+                        <a href="">Вакансии</a>
+                    </div>
+                    <div class="clmn">
+                        <a href="">Депозиты</a>
+                        <a href="">Кредиты</a>
+                        <a href="">Банковские карты</a>
+                        <a href="">Денежные переводы</a>
+                        <a href="">Тарифные пакеты</a>
+                    </div>
+                    <div class="clmn">
+                        <a href="">Новости</a>
+                        <a href="">Обратная связь</a>
+                        <a href="">Зарплатный проект</a>
+                    </div>
+                    <div class="clmn wide">
+                        <div class="phone"><b>0 800 50 20 50</b><br/>
+                            круглосуточно (бесплатно с моб. по Украине)</div>
+                    </div>
+
+                    <!--<a class="sitemap_link" href=""><i class="icon icon_sitemap"></i></a>-->
+                    <a class="search_link" href=""><i class="icon icon_search"></i></a>
+                </div><!--.footer_body-->
+
+                <div class="footer_footer">
+                    <div class="copyright">© 2009 ПАО «Альфа-Банк» (Украина). Лицензия НБУ №61 от 05.10.2011 г.</div>
+                    <a href="" class="developer"></a>
+                    <a href="" class="agency"></a>
+                </div><!--.footer_footer-->
+            </div>
+
+            <div class="footer_social">
+                <a href=""><i class="icon icon_fb"></i></a>
+                <a href=""><i class="icon icon_vk"></i></a>
+                <a href=""><i class="icon icon_od"></i></a>
+                <a href=""><i class="icon icon_tw"></i></a>
+                <a href=""><i class="icon icon_li"></i></a>
+                <a href=""><i class="icon icon_yt"></i></a>
+                <a href=""><i class="icon icon_gp"></i></a>
+                <a href=""><i class="icon icon_rs"></i></a>
+            </div>
+        </footer>
+
+    </div>
+</div>
+<!-- END wrapper-->
+
+<!-- BEGIN popups -->
+<div class="popup_holder">
+    <div class="dtable">
+        <div class="dtcell">
+
+        </div>
+        <i class="back" id="back"></i>
+    </div>
+</div>
+<!-- END popups -->
+
+<!--Yandex Metrika Code-->
+<!--/Yandex Metrika Code-->
+
+</body>
+</html>

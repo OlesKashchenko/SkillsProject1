@@ -1,0 +1,616 @@
+# Webalizer V2.21-02 Incremental Data - 05/11/2015 20:27:45
+2015 5 11 20 27 45
+3432 2408 20 155 32 28 237252793 328 70 0
+4 1 283 1 11
+84 81 5704334 8 5 4
+1 1 34454 1 1 1
+97 95 5760975 4 5 5
+85 43 2873201 3 4 3
+607 492 57025334 8 73 10
+1180 922 84184852 13 117 15
+595 274 28360705 8 46 10
+508 335 41338480 6 59 10
+60 57 3171100 4 4 4
+3 2 65636 2 2 2
+212 106 8733722 4 12 6
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+2 2 63601 2
+4 2 67739 2
+1 1 34454 1
+0 0 0 0
+2 2 558 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+81 80 5309587 2
+269 117 10550000 15
+589 459 40507062 61
+196 149 9593167 13
+415 263 29452290 36
+393 238 23009773 57
+350 226 31509004 45
+350 307 35312958 30
+322 247 21767204 27
+237 151 20366054 23
+122 109 6468384 6
+13 11 341866 3
+3 3 89492 3
+81 41 2805462 2
+2 0 4138 0
+0 0 0 0
+0
+0
+0
+2408
+0
+0
+0
+0
+0
+44
+0
+0
+0
+0
+907
+0
+0
+0
+0
+0
+0
+73
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/transfers_page_4.html
+0 6 0 146429 0 0
+/
+0 81 0 2374303 34 19
+/css/fonts/GothaProBolIta.woff
+0 10 0 302270 0 0
+/images/samples/deposit_bg_1_popup.jpg
+1 9 0 1159859 0 0
+/transfers_catalog.html
+0 6 0 84185 0 0
+/images/samples/banking_slider_2_2.png
+1 20 15636640 3799520 0 0
+/css/main.css
+0 81 0 12638512 0 0
+/images/samples/card_front_3.png
+1 8 0 318979 0 0
+/images/samples/promo_img_2.jpg
+1 35 0 1882364 0 0
+/images/samples/banking_slider_2_1.png
+1 20 0 3398088 0 0
+/images/banking_intro_bg.jpg
+1 13 0 9950942 0 0
+/images/samples/card_front_2.png
+1 8 0 266108 0 0
+/credit_page_1.html
+0 19 0 404788 1 1
+/images/samples/credit_card_bg_2.jpg
+1 9 3345171147643566135 6207710 0 0
+/images/samples/promo_img_1.jpg
+1 35 4107282860161892352 1267447 0 0
+/images/transfers_logo_unistream.png
+1 5 3257283617289153847 53755 0 0
+/images/samples/card_front_1.png
+1 8 7579055907345937975 270000 0 0
+/images/feedback_intro_bg.jpg
+1 11 8515800266135450677 2457126 0 0
+/credit_page_2.html
+0 9 6146616723407844398 193856 0 1
+/js/libs/markercluster.js
+0 54 6147408857111147570 1191513 0 0
+/js/libs/jquery-1.9.1.js
+0 50 15606480 9700425 0 0
+/css/libs/jquery.fs.selecter.css
+0 55 0 199713 0 0
+/images/about_bank_today_bg.png
+1 15 0 65439 0 0
+/css/fonts/GothaProLigIta.woff
+0 10 0 289350 0 0
+/css/fonts/GothaProLig.eot
+0 1 0 41333 0 0
+/banking.html
+0 23 0 596445 9 8
+/css/fonts/GothaProIta.eot
+0 1 0 42365 0 0
+/images/samples/transfers_catalog_2_blured.jpg
+1 6 0 702962 0 0
+/images/samples/promo_slide_5.jpg
+1 34 0 4415618 0 0
+/credit_page_3.html
+0 8 0 156716 0 0
+/images/samples/investor_brief_3.jpg
+1 10 0 212928 0 0
+/css/fonts/GothaProBlaIta.eot
+0 1 0 42163 0 0
+/images/samples/promo_slide_4.jpg
+1 35 0 4963114 0 0
+/images/samples/transfers_catalog_4.jpg
+1 8 0 4995368 0 0
+/css/fonts/GothaProBol.eot
+0 1 0 41297 0 0
+/css/map.css
+0 76 0 94456 0 0
+/images/samples/investor_brief_2.jpg
+1 9 0 193493 0 0
+/css/fonts/GothaProLig.ttf
+0 2 0 41264 0 0
+/css/fonts/GothaProIta.ttf
+0 2 0 42308 0 0
+/images/transfers_logo_swift.png
+1 6 0 57750 0 0
+/css/fonts/GothaProReg.eot
+0 1 0 40857 0 0
+/images/about_bank_splitted_2.jpg
+1 15 0 1143262 0 0
+/images/sprite.png
+1 70 0 1713281 0 0
+/images/samples/banking_slider_3_3.png
+1 14 0 926182 0 0
+/images/samples/avatar.jpg
+1 18 0 189663 0 0
+/images/samples/promo_slide_3.jpg
+1 35 0 7621476 0 0
+/images/samples/transfers_catalog_3.jpg
+1 6 0 2910066 0 0
+/images/samples/investor_brief_1.jpg
+1 10 0 254260 0 0
+/index_popup.html
+0 13 0 1150570 1 3
+/images/samples/popup_video.jpg
+1 7 0 3433213 0 0
+/images/samples/tape_card_sample_1.png
+1 8 0 1217920 0 0
+/css/fonts/GothaProBlaIta.ttf
+0 2 0 42084 0 0
+/css/fonts/GothaProBla.woff
+0 15 0 419395 0 0
+/css/fonts/GothaProBol.ttf
+0 4 0 123470 0 0
+/images/samples/banking_slider_3_2.png
+1 14 0 935188 0 0
+/images/transfers_logo_wu.png
+1 6 0 17011 0 0
+/images/samples/achievement_3.png
+1 34 0 61080 0 0
+/images/samples/promo_slide_2.jpg
+1 36 0 8990215 0 0
+/images/samples/transfers_catalog_2.jpg
+1 7 0 2620349 0 0
+/robots.txt
+0 5 0 1395 0 0
+/images/black_1px.png
+1 1 0 1163 0 0
+/corporate_text.html
+0 21 0 586483 8 5
+/js/libs/map.js
+0 75 0 946470 0 0
+/css/fonts/GothaProReg.ttf
+0 2 0 40812 0 0
+/images/samples/corporate_img_1.jpg
+1 21 0 2249835 0 0
+/images/samples/banking_slider_3_1.png
+1 14 0 1051889 0 0
+/images/samples/achievement_2.png
+1 34 0 263494 0 0
+/css/fonts/GothaProBol.woff
+0 49 0 1066384 0 0
+/images/samples/promo_slide_1.jpg
+1 35 0 9696920 0 0
+/images/samples/transfers_catalog_1.jpg
+1 8 0 2393983 0 0
+/css/fonts/GothaProMed.woff
+0 45 0 1021065 0 0
+/css/fonts/GothaProMed.eot
+0 1 0 41021 0 0
+/images/samples/card_fake_3.png
+1 9 0 56504 0 0
+/images/agency.png
+1 52 0 28951 0 0
+/js/libs/modernizr-2.6.2.min.js
+0 50 0 574985 0 0
+/images/deposit_bonus_bg.jpg
+1 13 0 459311 0 0
+/images/samples/transfer_logo_5.png
+1 7 0 12615 0 0
+/credit_card_catalog.html
+0 8 0 130651 1 0
+/images/investor_mountain.jpg
+1 10 0 436608 0 0
+/feedback.html
+0 23 0 586354 7 7
+/images/samples/credit_catalog_4.jpg
+1 11 0 4366197 0 0
+/images/samples/achievement_1.png
+1 34 0 229804 0 0
+/images/samples/transfers_catalog_1_blured.jpg
+1 6 0 584102 0 0
+/images/samples/footer_logo_6.png
+1 69 0 140483 0 0
+/images/samples/card_fake_2.png
+1 9 0 107360 0 0
+/images/samples/transfers_catalog_4_blured.jpg
+1 5 0 498065 0 0
+/js/libs/jquery.bxslider.min.js
+0 49 0 688198 0 0
+/images/logo_header_small.png
+1 47 0 30383 0 0
+/css/bxslider/jquery.bxslider.css
+0 76 0 250042 0 0
+/images/samples/transfer_logo_4.png
+1 7 0 18339 0 0
+/images/samples/about_bank_splitted_1.jpg
+1 15 0 3958179 0 0
+/images/samples/credit_catalog_3.jpg
+1 13 0 4401349 0 0
+/images/samples/news_img_1.jpg
+1 36 0 1147808 0 0
+/css/fonts/GothaProMed.ttf
+0 2 0 40944 0 0
+/css/fonts/GothaProBolIta.eot
+0 1 0 42207 0 0
+/images/samples/footer_logo_5.png
+1 70 0 141394 0 0
+/images/developer.png
+1 47 27694698150257505 38237 0 0
+/images/samples/card_fake_1.png
+1 9 0 127827 0 0
+/images/samples/transfer_logo_3.png
+1 7 0 14637 0 0
+/credit_card_1.html
+0 10 0 177292 1 3
+/images/samples/box_img_5.jpg
+1 19 0 4815829 0 0
+/images/samples/credit_catalog_2.jpg
+1 12 0 5610577 0 0
+/images/gmarker_cluster.png
+1 8 0 14752 0 0
+/images/sprite_subnav.png
+1 65 0 243226 0 0
+/js/script.js
+0 81 0 1475418 0 0
+/images/card_tape_bg.png
+1 9 0 8375632 0 0
+/images/samples/footer_logo_4.png
+1 70 0 171898 0 0
+/images/paypass_logo.png
+1 8 0 25378 0 0
+/images/mastercard_logo.png
+1 8 0 43159 0 0
+/images/samples/credit_card_bg.jpg
+1 8 0 1283160 0 0
+/images/samples/transfer_logo_2.png
+1 7 0 13413 0 0
+/images/samples/box_img_4.jpg
+1 18 0 948152 0 0
+/css/fonts/GothaProLigIta.eot
+0 1 0 42371 0 0
+/css/fonts/GothaProBolIta.ttf
+0 2 0 42128 0 0
+/images/samples/credit_catalog_1.jpg
+1 13 0 3624353 0 0
+/map.html
+0 13 0 272934 1 0
+/js/libs/infobox.js
+0 75 0 290297 0 0
+/deposit_page_1.html
+0 17 0 347821 3 3
+/css/fonts/GothaProLig.woff
+0 42 0 924986 0 0
+/images/samples/footer_logo_3.png
+1 71 0 160285 0 0
+/transfers_page_1.html
+0 8 0 137102 0 0
+/images/samples/banking_slider_1_3.jpg
+1 14 0 2571524 0 0
+/css/fonts/GothaProBla.eot
+0 1 0 40473 0 0
+/js/libs/jquery.fs.selecter.min.js
+0 49 0 346553 0 0
+/images/gmarker_default.png
+1 11 0 21136 0 0
+/images/samples/transfer_logo_1.png
+1 7 0 9867 0 0
+/css/fonts/GothaProReg.woff
+0 48 0 1069656 0 0
+/images/samples/box_img_3.jpg
+1 19 0 1367014 0 0
+/images/credit_card_bonus_program_bg.jpg
+1 8 0 621843 0 0
+/images/deposit_compare_bg.jpg
+1 9 0 1048736 0 0
+/images/samples/captcha.jpg
+1 11 0 34525 0 0
+/images/samples/footer_logo_2.png
+1 69 0 152294 0 0
+/about.html
+0 18 0 367178 3 1
+/images/samples/banking_slider_1_2.jpg
+1 14 0 2523099 0 0
+/js/libs/jquery-ui-1.10.0.custom.js
+0 51 0 16018970 0 0
+/transfers_page_2.html
+0 7 0 218067 0 0
+/css/fonts/GothaProLigIta.ttf
+0 2 0 42308 0 0
+/images/samples/box_img_2.jpg
+1 19 0 890933 0 0
+/images/samples/deposit_bg_2.jpg
+1 13 0 2775338 0 0
+/css/fonts/GothaProBla.ttf
+0 2 0 40416 0 0
+/images/samples/footer_logo_1.png
+1 71 0 158115 0 0
+/credit_catalog.html
+0 20 0 279948 1 1
+/images/samples/banking_slider_1_1.jpg
+1 13 0 1998533 0 0
+/investor.html
+0 11 0 445358 0 0
+/images/samples/box_img_1.jpg
+1 18 0 1378035 0 0
+/images/samples/transfers_catalog_3_blured.jpg
+1 5 0 535195 0 0
+/transfers_page_3.html
+0 5 0 117647 0 0
+/images/samples/deposit_bg_1.jpg
+1 14 0 3637252 0 0
+/images/banking_security.png
+1 13 0 5233242 0 0
+/images/logo_header.png
+1 49 0 111048 0 0
+/css/fonts/GothaProIta.woff
+0 35 0 954325 0 0
+/images/tape_card_hand.png
+1 8 0 1113236 0 0
+/css/fonts/GothaProBlaIta.woff
+0 10 0 308190 0 0
+/images/samples/credit_page_tab_1.png
+1 18 0 9384267 0 0
+/images/samples/banking_slider_2_3.png
+1 21 0 4703021 0 0
+# End Of Table - urls
+# -sites- (monthly)
+245.222.57.37.triolan.net
+0 310 170 11582326 3 1430993097
+/credit_page_1.html
+google-proxy-66-249-81-180.google.com
+0 11 5 162336 4 1431261119
+/banking.html
+vidente.la.net.ua
+0 136 108 19377849 3 1431098274
+/index_popup.html
+91-204-182-31.naverex.kiev.ua
+0 37 36 2950970 1 1430476630
+/deposit_page_1.html
+217.27.152.26.sitel.com.ua
+0 733 575 66533497 8 1431100819
+/corporate_text.html
+104.45.18.178
+0 32 16 446192 2 1430929904
+/credit_catalog.html
+google-proxy-66-249-93-152.google.com
+0 21 17 878272 0 0
+-
+91.197.217.11
+0 185 94 9459442 5 1431096708
+/
+spider-37-140-141-29.yandex.com
+0 5 5 38758 1 1431001417
+/
+95.67.115.254
+0 97 80 5321929 2 1430904359
+/
+google-proxy-66-249-93-148.google.com
+0 17 12 833652 2 1430912882
+/
+host-176-36-121-11.la.net.ua
+0 18 7 521688 1 1430843116
+/corporate_text.html
+google-proxy-66-249-81-188.google.com
+0 13 9 308766 9 1431376065
+/banking.html
+95.67.125.56
+0 414 234 22997964 9 1431366201
+/about.html
+94-153-218-205-gprs.kyivstar.net
+0 46 46 2835694 1 1431170937
+/
+google-proxy-66-249-81-184.google.com
+0 11 7 238801 7 1431291472
+/
+cd.55.4f.static.xlhost.com
+0 5 5 150847 1 1430991290
+/
+google-proxy-66-249-93-156.google.com
+0 16 14 1260364 0 0
+-
+5-248-227-13-broadband.kyivstar.net
+0 140 138 8494751 4 1431345300
+/
+213.108.75.122.silvertele.com
+0 1185 874 82858695 7 1431097272
+/feedback.html
+# End Of Table - sites (monthly)
+# -sites- (daily)
+google-proxy-66-249-81-180.google.com
+0 1 0 2069 0 0
+-
+google-proxy-66-249-81-188.google.com
+0 1 1 25925 1 1431376065
+/banking.html
+95.67.125.56
+0 173 68 6139529 4 1431366201
+/about.html
+5-248-227-13-broadband.kyivstar.net
+0 37 37 2566199 1 1431345300
+/
+# End Of Table - sites (daily)
+# -referrers- 
+http://alfanew.vis-design.com/ABOUT.HTML
+1 1
+- (Direct Request)
+0 331
+http://alfanew.vis-design.com/banking.html
+1 172
+http://alfanew.vis-design.com/
+1 1007
+http://alfanew.vis-design.com/transfers_page_2.html
+1 9
+http://www.alfanew.vis-design.com/banking.html
+1 10
+http://alfanew.vis-design.com/deposit_page_1.html
+1 230
+http://alfanew.vis-design.com/credit_card_catalog.html
+1 105
+http://alfanew.vis-design.com/transfers_page_3.html
+1 7
+http://rm.youshido.com/projects/alfabank/wiki
+0 1
+http://planner.fresh-design.com.ua/task/7287
+0 2
+http://alfanew.vis-design.com/transfers_page_4.html
+1 21
+http://alfanew.vis-design.com/credit_catalog.html
+1 68
+http://alfanew.vis-design.com/index.html
+1 22
+http://alfanew.vis-design.com/feedback.html
+1 95
+http://alfanew.vis-design.com/credit_page_1.html
+1 55
+http://alfanew.vis-design.com/map.html
+1 49
+http://alfanew.vis-design.com/corporate_text.html.
+1 1
+http://alfanew.vis-design.com/credit_page_2.html
+1 5
+http://rm.youshido.com/issues/4725
+0 3
+http://alfanew.vis-design.com/transfers_catalog.html
+1 20
+http://alfanew.vis-design.com/credit_page_3.html
+1 36
+http://alfanew.vis-design.com/index_popup.html
+1 46
+http://alfanew.vis-design.com/about.html
+1 166
+http://alfanew.vis-design.com/investor.html
+1 111
+http://www.alfanew.vis-design.com/
+1 33
+http://vis.worksection.com/project/86208/2261013/2306740/
+0 1
+http://alfanew.vis-design.com/corporate_text.html
+1 314
+http://alfanew.vis-design.com/credit_card_1.html
+1 54
+http://alfanew.vis-design.com/css/main.css
+1 395
+http://www.alfanew.vis-design.com/css/main.css
+1 11
+http://alfanew.vis-design.com/transfers_page_1.html
+1 51
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+0 58
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+0 76
+Mozilla/5.0 (Windows NT 6.1; rv:6.0) Gecko/20110814 Firefox/6.0 Google favicon
+0 35
+Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)
+0 5
+Mozilla/5.0 (Linux; U; Android 2.3.6; uk-ua; GT-S5830 Build/GINGERBREAD) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mo
+0 91
+Mozilla/5.0 (compatible; SMTBot/1.0; +http://www.similartech.com/smtbot)
+0 3
+Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko)                 Version/6.0 Mobi
+0 2
+Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12F70 Safari
+0 66
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+0 107
+Mozilla/5.0 (iPhone; CPU iPhone OS 8_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12D508 Safar
+0 145
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+0 37
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36 OPR/
+0 41
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.45 Safari/537.36
+0 41
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+0 105
+Mozilla/5.0 (iPod touch; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12F69 Sa
+0 370
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/39.0.2171.65 Chrome/39.0.2171.65 Safar
+0 192
+Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36 OPR/29.0.1795.47
+0 23
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+0 57
+Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko
+0 97
+Mozilla/5.0 (Linux; Android 5.0.2; HTC One dual sim Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.109
+0 40
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+0 785
+Mozilla/5.0 (Linux; Android 5.0.2; HTC One dual sim Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.111
+0 14
+Mozilla/5.0 (Windows NT 6.1; rv:37.0) Gecko/20100101 Firefox/37.0
+0 26
+Mozilla/5.0 (Windows NT 6.1; WOW64) SkypeUriPreview Preview/0.5
+0 32
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.2; WOW64; Trident/7.0; .NET4.0E; .NET4.0C; .NET CLR 3.5.30729; .NET CLR 2.0.5
+0 9
+Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36
+0 665
+Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+0 124
+Mozilla/5.0 (iPad; CPU OS 8_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12D508 Safari/600.1.4
+0 186
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

@@ -1,0 +1,12 @@
+@include('partials.popups.sitemap')
+@include('partials.popups.atms_map')
+@include('partials.popups.video_player')
+@include('partials.popups.new_user')
+@include('partials.popups.apply_form')
+@include('partials.popups.apply_form_text')
+{{--@include('partials.popups.text_popup')--}}
+@include('partials.popups.deposits_compare')
+@include('partials.popups.apply_form_deposit')
+@include('partials.popups.middle')
+@include('partials.popups.office_info')
+@include('partials.popups.custom_text_popup')

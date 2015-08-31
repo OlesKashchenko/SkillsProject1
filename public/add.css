@@ -1,0 +1,24 @@
+/*tree view*/
+
+.jstree-default .jstree-node, .jstree-default .jstree-icon {
+    background-image: none !important;
+}
+.jstree-default .jstree-open>.jstree-ocl, .jstree-default .jstree-closed>.jstree-ocl {
+    position: relative;
+    top: 2px;
+    background: none;
+    font: normal normal normal 14px/1 FontAwesome;
+}
+.jstree-default .jstree-open>.jstree-ocl:before {
+    content: "\f07c";
+}
+.jstree-default .jstree-closed>.jstree-ocl:before {
+    content: "\f055";
+}
+.jstree-default .jstree-anchor {
+    padding: 3px 5px;
+    height: auto !important;
+}
+
+
+/*tree view*/
